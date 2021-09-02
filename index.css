@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background: #192531;
+    height: 100%;
+    width: 100%;
+    padding: 5% 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+
+.timeline {
+    height: 100%;
+    width: 1px;
+    background: #999;
+    margin-left: 5%;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cir {
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: -5px;
+    position: relative;
+}
+
+.context {
+    position: absolute;
+    left: 16px;
+    bottom: -10px;
+    color: #666;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.chin {
+    position: absolute;
+    left: 23px;
+    bottom: -7px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.page-one {
+    width: 100%;
+    height: 100%;
+    margin-left: 90px;
+    position: relative;
+}
+
+.one-mask {
+    width: 600px;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.one-mask .mask-label,
+.mask-english {
+    color: #ffffff;
+    text-shadow: 5px 4px 1px rgb(255 255 255 / 20%);
+}
+
+.one-z {
+    width: 160px;
+    position: absolute;
+    top: 50px;
+    right: 410px;
+}
+
+.one-z img {
+    width: 100%;
+}
+
+.one-label {
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+.one-label .one-title {
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.one-label .one-content {
+    font-size: 12px;
+    color: #ffffff;
+    width: 300px;
+}
+
+.one-img {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.one-img-1 {
+    height: 250px;
+    width: 384px;
+}
+
+.one-img-2 {
+    height: 180px;
+    width: 270px;
+}
+
+.one-img-3 {
+    height: 100px;
+    width: 180px;
+}
+
+.one-img img {
+    width: 100%;
+    height: 100%;
+}
